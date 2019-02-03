@@ -14,6 +14,7 @@ fn main() {
     let tup: (i32, f64, u8) = (500, 6.4, 1);
     println!("Zeroth index of tuple: {}", tup.0);
 
+    // array
     let arry: [i32; 5] = [10,11,12,13,14];
     for (i, elem) in arry.iter().enumerate() {
         println!("arry[{}]: {}", i, elem);
