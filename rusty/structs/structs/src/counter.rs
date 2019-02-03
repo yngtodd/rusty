@@ -5,7 +5,7 @@ pub struct Args {
 
 pub struct Counter {
     pub val: u32,
-    pub by: u32,
+    pub by: u32
 }
 
 impl Counter {
