@@ -6,6 +6,6 @@ args:
     - num:
         short: n 
         long: number 
-        value_name: NUMBER 
+        value_name: i32 
         help: "Integer to divide 10 by" 
         takes_value: true
