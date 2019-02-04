@@ -9,10 +9,11 @@ fn main() {
                  .short("n")
                  .long("number")
                  .takes_value(true)
-                 .help("Single integer, please."))
+                 .help("Integer to divide 10 by."))
         .get_matches();
 
     let num_str = args.value_of("num");
+
     match num_str {
         None => println!("Need an integer to divide by."),
         Some(s) => {
@@ -24,7 +25,7 @@ fn main() {
                     };
                 },
                 Err(_) => {
-                    println!("That's not a number! {}", s)
+                    println!("That's not an integer! {}", s)
                 },
             }
         }

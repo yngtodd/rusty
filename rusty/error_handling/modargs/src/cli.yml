@@ -1,0 +1,11 @@
+name: "Dividing into 10" 
+version: "0.0.1"
+author: Todd Young <young.todd.mk@gmail.com>
+about: "Divides 10 by some integer."
+args:
+    - num:
+        short: n 
+        long: number 
+        value_name: NUMBER 
+        help: "Integer to divide 10 by" 
+        takes_value: true
