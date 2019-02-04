@@ -1,11 +1,9 @@
 #[macro_use]
 extern crate clap;
 
-use clap::App;
-
 fn main() {
     let yaml = load_yaml!("cli.yml");
-    let args = App::from_yaml(yaml).get_matches();
+    let args = clap::App::from_yaml(yaml).get_matches();
     let num = value_t!(args.value_of("num"), i32).unwrap_or_else(|e| e.exit());
 
     match divide_ten_by(num) {
