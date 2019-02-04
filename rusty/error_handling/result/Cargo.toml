@@ -1,0 +1,8 @@
+[package]
+name = "result"
+version = "0.1.0"
+authors = ["yngtodd <young.todd.mk@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.32.0"
