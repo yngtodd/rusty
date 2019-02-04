@@ -1,1 +1,0 @@
-/Users/yngtodd/src/develop/rusty/rusty/traits/traits/target/debug/traits.dSYM: /Users/yngtodd/src/develop/rusty/rusty/traits/traits/src/main.rs /Users/yngtodd/src/develop/rusty/rusty/traits/traits/src/tweet.rs
