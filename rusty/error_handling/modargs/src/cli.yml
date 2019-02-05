@@ -1,4 +1,4 @@
-name: "Dividing into 10" 
+name: "Dividing into Ten" 
 version: "0.0.1"
 author: Todd Young <young.todd.mk@gmail.com>
 about: "Divides 10 by some integer."
