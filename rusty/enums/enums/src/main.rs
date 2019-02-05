@@ -9,6 +9,7 @@ struct Ipv4Addr {
 
 struct Ipv6Addr {
     //
+    addr: String
 }
 
 enum IpAddr {
@@ -16,20 +17,8 @@ enum IpAddr {
     V6(Ipv6Addr)
 }
 
-enum message {
-    Quit,
-    Move { x: i32, y: i32 },
-    Write(String),
-    ChangeColor(i32, i32, i32)
+impl IpAddr {
+    pub fn print(&self) {
+        println!("")
+    }
 }
-
-struct QuitMessage;
-
-struct MoveMessage {
-    x: i32,
-    y: i32
-}
-
-// tuple structs
-struct WriteMessage(String);
-struct ChangeColorMessage(i32, i32, i32);
